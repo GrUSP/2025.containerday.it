@@ -1,0 +1,198 @@
+
+#####################
+# Conference defaults
+#####################
+
+# conference config
+conference:
+  # Online-only conferences
+  is_online_only: false
+  online_location: "online"
+  online_location_title: "Internet"
+  online_location_info: "La conferenza si svolge da remoto"
+
+  # menu and general params
+  menu_buy_tickets_label: "Compra il biglietto"
+  # additional info for microdata / schema.org
+  md_city: "Bologna"
+  md_province: "BO"
+  md_postal_code: "40127"
+  md_address: "Via del Pilastro 2"
+  organizer_url: "https://grusp.org/"
+  # contact email
+  contact_email: "containerday@grusp.org"
+  # these are for the hero section
+  title_pre: ""
+  title: "containerday 2023"
+  city: "Bologna"
+  date: 2023-10-12T09:00+02:00
+  # Use the next field to override the date in the hero
+  hero_date_text:
+  countdown_visible: false
+  countdown_days: "giorni"
+  countdown_hours: "ore"
+  countdown_minutes: "minuti"
+  countdown_seconds: "secondi"
+  ticket_button_visible: true
+  hero_buy_tickets_label: "Assicurati un posto"
+  # image credits (l'esempio è per la hero del CSS Day!)
+  # hero_img_credits: "Image by Gianni Careddu - Own work, <a href='https://commons.wikimedia.org/w/index.php?curid=74821344 target='_blank' rel='noopener noreferrer'>CC BY-SA 4.0</a>"
+  # "update" component. set the first parameter to true to make it appear in home page, false means hidden
+  update_visible: true
+  update_is_warning: false
+  update_warning_header: ""
+  update_title: "Il giorno dopo containerday c'è devsecopsday!"
+  update_description: "DevOps e Sicurezza: la nuova conferenza GrUSP dedicata a DevSecOps"
+  update_link_url: "https://2023.devsecopsday.it/"
+  update_link_label: "Scopri di più su devsecopsday"
+  # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
+  cfp_open: false
+  cfp_readmore_label: "Continua a leggere"
+  cfp_open_label: "Proponi un talk entro il"
+  cfp_open_title: "Call For Paper aperta!"
+  cfp_deadline: 2023-06-25T23:59+02:00
+  cfp_register_label: "Invia la tua proposta"
+  cfp_register_aria_label: "Inviaci ora la tua proposta"
+  # "general information" ("what is it?") component
+  geninfo_visible: true
+  geninfo_title: "Che cos'è?"
+  geninfo_description: "<p>containerday è la principale conferenza italiana dedicata esclusivamente alle tecnologie di containerizzazione e virtualizzazione ed alle buone pratiche ad esse associate.
+  </p><p>Docker, Kubernetes e le tecnologie di virtualizzazione stanno cambiando radicalmente il mondo delle infrastrutture IT. Alla conferenza saranno presentate le best practices, le tecnologie innovative e gli strumenti più maturi per poter gestire e far evolvere una infrastruttura IT moderna.
+  </p><p><b>containerday 2023 si svolge a Bologna e online, Giovedì 12 Ottobre 2023.</b>
+  Il giorno prima si svolge il workshop <a href='http://localhost:4000/workshop/kubernetes-security.html'>Kubernetes Security Best Practices</a>.
+  Il giorno dopo c'è la conferenza dedicata a <a href='https://2023.devsecopsday.it/'>DevSecOps.</a></p>"
+  geninfo_about_label: "About"
+  geninfo_coc_label: "Codice di condotta"
+  geninfo_scholarships_label: "Scholarships"
+  geninfo_tickets_label: "Biglietti"
+  # this is for the Newsletter block
+  newsletter_title: "Ricevi gli aggiornamenti"
+  newsletter_subtitle: "Iscriviti alla nostra newsletter"
+  # fields taken from the Mail chimp default form -- set to `true` to add subscription
+  newsletter_lists:
+    php: false
+    javascript: false
+    design: false
+    devops: true
+    frontend: false
+    ruby: false
+    entrepreneurship: false
+    local_events: false
+    everything: false
+  newsletter_firstname_label: "Nome"
+  newsletter_lastname_label: "Cognome"
+  newsletter_email_label: "Email"
+  newsletter_subscribe_label: "Iscriviti"
+  newsletter_lang_challenge: "Parli italiano?"
+  newsletter_lang_label: "Of course, certamente!"
+  newsletter_privacy_label: "Ho letto ed accettato la "
+  newsletter_privacy_link_label: "privacy policy"
+  newsletter_disclaimer: "Usiamo Mailchimp come nostra piattaforma di marketing. Iscrivendoti alla newsletter, accessi che i tuoi dati siano trasferiti a Mailchimp per essere gestiti. "
+  newsletter_legal_url: "https://mailchimp.com/legal/"
+  newsletter_legal_label: "Informazioni riguardo la privacy policy di Mailchimp"
+  # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden
+  speakers_visible: true
+  speakers_title: "speaker"
+  mcs_title: "MC"
+  speaker_count_text:
+  # "topics" component. set the first parameter to true to make it appear in home page, false means hidden
+  topics_visible: true
+  topics_title: "Argomenti e temi"
+  topics_description: "Parleremo di..."
+  topics:
+    - "Container"
+    - "Docker"
+    - "kubernetes"
+    - "sistemi operativi, ecosistemi e tendenze"
+    - "intergrazioni con Cloud provider"
+    - "Metodologia e microservizi"
+    - "monitoring e gestione"
+  topics_payoff: "...e molto altro!"
+  # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
+  workshop_visible: true
+  workshops_title: "workshop"
+  workshops_tickets_label: "Acquista i biglietti"
+  workshops_readmore_label: "Continua a leggere"
+  workshops_register_label: "Registrati"
+  # Media section in home page. set the first parameter to true to make it appear in home page, false means hidden
+  media_visible: true
+  media_pic_1: ""
+  media_pic_2: ""
+  media_pic_3: ""
+  media_pic_4: ""
+  #   playlist: if true, the iframe will be created. if false, it will not
+  media_video_playlist: true
+  # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"
+  media_video_is_youtube: true
+  youtube_base_url: "https://www.youtube.com/embed/videoseries?list="
+  # vimeo_base_url: "https://vimeo.com/channels/"
+  # vimeo_url_suffix: "/embed"
+  #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
+  youtube_playlist_id: "PLWK9j6ps_unmk6E2XFEv-tMfnFh4fJhEr"
+  #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
+  # vimeo_showcase_id: "italiancontainerday"
+  # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
+  location_visible: true
+  location_name: "Hotel Savoia Regency"
+  location_address: "Via del Pilastro, 2, 40127 Bologna (BO)"
+  location_maps_url: "https://goo.gl/maps/KmKU5YsBGjZihnkTA"
+  location_maps_label: "Get directions"
+  location_readmore_label: "Read more"
+  # image credits (l'esempio è per la hero del CSS Day!)
+  venue_img_credits: ""
+  # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
+  sponsors_visible: true
+  sponsor_title_home: "Sponsor"
+  # this is for the Community partners section in home page
+  community_partners: true
+  community_partners_title: "Community partner"
+  # community_partners_text: ""
+  # this is for the Social links block
+  social_follow: "Seguici su"
+  social_fb_url: "https://www.facebook.com/containerday"
+  social_linkedin_url: "https://www.linkedin.com/company/grusp/"
+  social_twitter_url: "https://twitter.com/containerdayit"
+  social_vimeo_url: "https://vimeo.com/grusp"
+  social_youtube_url: "https://www.youtube.com/c/grusp"
+  social_instagram_url: "https://www.instagram.com/grusp_/"
+  social_mastodon_url: "https://phpc.social/@grusp"
+  # 404
+  back_to_home_label: "back to home page"
+  # footer
+  #   this is for the "previous editions" links
+  base_url: "containerday.it/"
+  past_editions_pre: "Passate edizioni della conferenza:"
+  past_editions:
+    2016: "2016"
+    2017: "2017"
+    2018: "2018"
+    2019: "2019"
+    2020: "2020"
+    2021: "2021"
+    2022: "2022"
+  past_editions_videos_pre: "Tutti i video delle passate edizioni sono disponibili su "
+  past_editions_videos_vimeo_label: "Vimeo"
+  past_editions_videos_mid: " e "
+  past_editions_videos_youtube_label: "YouTube"
+  past_editions_videos_post: "."
+  footer_copy_text: "è &copy; del <a href='https://www.grusp.org'>GrUSP</a> e del suo fantastico team"
+  footer_contact_text: "Contattaci "
+  footer_links_pre: "Puoi leggere la nostra "
+  footer_links_privacy_link_label: "privacy policy"
+  iubenda:
+    # sostituire tutti questi parametri con quelli generati nel dashboard di iubenda.com cfr. https://gist.github.com/mbeccati/1bd9e562905a90e14d7d88ed3dcea34c
+    cookiePolicyId: 96353686
+    siteId: 2105072
+    lang: it
+    enableRemoteConsent: true
+    localConsentDomain: containerday.it
+    rebuildIframe: true
+  privacy_policy_url_common: "https://www.iubenda.com/privacy-policy/"
+  footer_link_middle: " ed il nostro "
+  footer_coc_link_label: "codice di condotta"
+  # Google Tag Manager
+  google:
+    tag_manager_id: "GTM-NJWQQRC"
+  # Tito tickets
+  tito:
+    event: grusp/containerday-2024
