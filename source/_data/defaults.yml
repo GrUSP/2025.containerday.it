@@ -23,22 +23,22 @@ conference:
   contact_email: "containerday@grusp.org"
   # these are for the hero section
   title_pre: ""
-  title: "containerday 2023"
+  title: "containerday 2025"
   city: "Bologna"
-  date: 2023-10-12T09:00+02:00
+  date: ""
   # Use the next field to override the date in the hero
-  hero_date_text:
+  hero_date_text: "Autunno 2025"
   countdown_visible: false
   countdown_days: "giorni"
   countdown_hours: "ore"
   countdown_minutes: "minuti"
   countdown_seconds: "secondi"
-  ticket_button_visible: true
+  ticket_button_visible: false
   hero_buy_tickets_label: "Assicurati un posto"
   # image credits (l'esempio è per la hero del CSS Day!)
   # hero_img_credits: "Image by Gianni Careddu - Own work, <a href='https://commons.wikimedia.org/w/index.php?curid=74821344 target='_blank' rel='noopener noreferrer'>CC BY-SA 4.0</a>"
   # "update" component. set the first parameter to true to make it appear in home page, false means hidden
-  update_visible: true
+  update_visible: false
   update_is_warning: false
   update_warning_header: ""
   update_title: "Il giorno dopo containerday c'è devsecopsday!"
@@ -57,10 +57,8 @@ conference:
   geninfo_visible: true
   geninfo_title: "Che cos'è?"
   geninfo_description: "<p>containerday è la principale conferenza italiana dedicata esclusivamente alle tecnologie di containerizzazione e virtualizzazione ed alle buone pratiche ad esse associate.
-  </p><p>Docker, Kubernetes e le tecnologie di virtualizzazione stanno cambiando radicalmente il mondo delle infrastrutture IT. Alla conferenza saranno presentate le best practices, le tecnologie innovative e gli strumenti più maturi per poter gestire e far evolvere una infrastruttura IT moderna.
-  </p><p><b>containerday 2023 si svolge a Bologna e online, Giovedì 12 Ottobre 2023.</b>
-  Il giorno prima si svolge il workshop <a href='http://localhost:4000/workshop/kubernetes-security.html'>Kubernetes Security Best Practices</a>.
-  Il giorno dopo c'è la conferenza dedicata a <a href='https://2023.devsecopsday.it/'>DevSecOps.</a></p>"
+  </p><p>Docker, Kubernetes e le tecnologie di virtualizzazione hanno radicalmente cambiato il mondo delle infrastrutture IT. Alla conferenza saranno presentate le best practices, le tecnologie innovative e gli strumenti per poter gestire e far evolvere una infrastruttura IT moderna.
+  </p><p><b>containerday 2025 si svolgerà a Bologna (ed online).</b>"
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
   geninfo_scholarships_label: "Scholarships"
@@ -91,7 +89,7 @@ conference:
   newsletter_legal_url: "https://mailchimp.com/legal/"
   newsletter_legal_label: "Informazioni riguardo la privacy policy di Mailchimp"
   # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden
-  speakers_visible: true
+  speakers_visible: false
   speakers_title: "speaker"
   mcs_title: "MC"
   speaker_count_text:
@@ -109,7 +107,7 @@ conference:
     - "monitoring e gestione"
   topics_payoff: "...e molto altro!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
-  workshop_visible: true
+  workshop_visible: false
   workshops_title: "workshop"
   workshops_tickets_label: "Acquista i biglietti"
   workshops_readmore_label: "Continua a leggere"
@@ -128,7 +126,7 @@ conference:
   # vimeo_base_url: "https://vimeo.com/channels/"
   # vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unmk6E2XFEv-tMfnFh4fJhEr"
+  youtube_playlist_id: "PLWK9j6ps_unnsa_fmB4lfSmQVjQIwbuQR"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   # vimeo_showcase_id: "italiancontainerday"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
@@ -141,7 +139,7 @@ conference:
   # image credits (l'esempio è per la hero del CSS Day!)
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  sponsors_visible: true
+  sponsors_visible: false
   sponsor_title_home: "Sponsor"
   # this is for the Community partners section in home page
   community_partners: true
@@ -170,6 +168,8 @@ conference:
     2020: "2020"
     2021: "2021"
     2022: "2022"
+    2023: "2023"
+    2024: "2024"
   past_editions_videos_pre: "Tutti i video delle passate edizioni sono disponibili su "
   past_editions_videos_vimeo_label: "Vimeo"
   past_editions_videos_mid: " e "
@@ -195,4 +195,4 @@ conference:
     tag_manager_id: "GTM-NJWQQRC"
   # Tito tickets
   tito:
-    event: grusp/containerday-2024
+    event: grusp/containerday-2025
