@@ -72,13 +72,6 @@
   </url>
   
   <url>
-    <loc>https://2025.containerday.it/welcome/coc.html</loc>
-    
-    <lastmod>2024-12-10</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://2025.containerday.it/welcome/scholarships.html</loc>
     
     <lastmod>2024-12-10</lastmod>
@@ -86,7 +79,7 @@
   </url>
   
   <url>
-    <loc>https://2025.containerday.it/welcome/where.html</loc>
+    <loc>https://2025.containerday.it/welcome/coc.html</loc>
     
     <lastmod>2024-12-10</lastmod>
     
@@ -94,6 +87,13 @@
   
   <url>
     <loc>https://2025.containerday.it/welcome/safety.html</loc>
+    
+    <lastmod>2024-12-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2025.containerday.it/welcome/where.html</loc>
     
     <lastmod>2024-12-10</lastmod>
     
