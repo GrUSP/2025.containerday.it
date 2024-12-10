@@ -179,8 +179,8 @@ conference:
   footer_links_privacy_link_label: "privacy policy"
   iubenda:
     # sostituire tutti questi parametri con quelli generati nel dashboard di iubenda.com cfr. https://gist.github.com/mbeccati/1bd9e562905a90e14d7d88ed3dcea34c
-    cookiePolicyId: 96353686
-    siteId: 2105072
+    cookiePolicyId: 56006001
+    siteId: 1269341
     lang: it
     enableRemoteConsent: true
     localConsentDomain: containerday.it
