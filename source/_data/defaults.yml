@@ -25,9 +25,9 @@ conference:
   title_pre: ""
   title: "containerday 2025"
   city: "Bologna"
-  date: ""
+  date: 2024-11-05T09:00+01:00
   # Use the next field to override the date in the hero
-  hero_date_text: "Autunno 2025"
+  hero_date_text: "Mercoledì 5 Novembre 2025"
   countdown_visible: false
   countdown_days: "giorni"
   countdown_hours: "ore"
@@ -46,11 +46,11 @@ conference:
   update_link_url: "https://2023.devsecopsday.it/"
   update_link_label: "Scopri di più su devsecopsday"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
-  cfp_open: false
+  cfp_open: true
   cfp_readmore_label: "Continua a leggere"
   cfp_open_label: "Proponi un talk entro il"
   cfp_open_title: "Call For Paper aperta!"
-  cfp_deadline: 2023-06-25T23:59+02:00
+  cfp_deadline: 2025-06-08T23:59+02:00
   cfp_register_label: "Invia la tua proposta"
   cfp_register_aria_label: "Inviaci ora la tua proposta"
   # "general information" ("what is it?") component
@@ -58,7 +58,8 @@ conference:
   geninfo_title: "Che cos'è?"
   geninfo_description: "<p>containerday è la principale conferenza italiana dedicata esclusivamente alle tecnologie di containerizzazione e virtualizzazione ed alle buone pratiche ad esse associate.
   </p><p>Docker, Kubernetes e le tecnologie di virtualizzazione hanno radicalmente cambiato il mondo delle infrastrutture IT. Alla conferenza saranno presentate le best practices, le tecnologie innovative e gli strumenti per poter gestire e far evolvere una infrastruttura IT moderna.
-  </p><p><b>containerday 2025 si svolgerà a Bologna (ed online).</b>"
+  </p><p><b>containerday 2025 si svolge a Bologna (ed online), Mercoledì 5 Novembre 2025.</b>
+  </p><p>Il giorno prima, nella stessa venue, c'è la conferenza <a href='https://devsecopsday.it/'>dedicata a DevOps e Security.</a>. Puoi acquistare i biglietti 'bundle' per partecipare ad entrambe."
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
   geninfo_scholarships_label: "Scholarships"
@@ -114,10 +115,10 @@ conference:
   workshops_register_label: "Registrati"
   # Media section in home page. set the first parameter to true to make it appear in home page, false means hidden
   media_visible: true
-  media_pic_1: ""
-  media_pic_2: ""
-  media_pic_3: ""
-  media_pic_4: ""
+  media_pic_1: "1.jpg"
+  media_pic_2: "3.jpg"
+  media_pic_3: "4.jpg"
+  media_pic_4: "2.jpg"
   #   playlist: if true, the iframe will be created. if false, it will not
   media_video_playlist: true
   # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"
@@ -126,7 +127,7 @@ conference:
   # vimeo_base_url: "https://vimeo.com/channels/"
   # vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unnsa_fmB4lfSmQVjQIwbuQR"
+  youtube_playlist_id: "PLWK9j6ps_unnsa_fmB4lfSmQVjQIwbuQR&si=m9ongnCgdJYCm3WY"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   # vimeo_showcase_id: "italiancontainerday"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
@@ -139,7 +140,7 @@ conference:
   # image credits (l'esempio è per la hero del CSS Day!)
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  sponsors_visible: false
+  sponsors_visible: true
   sponsor_title_home: "Sponsor"
   # this is for the Community partners section in home page
   community_partners: true
