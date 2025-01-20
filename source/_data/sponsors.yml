@@ -9,11 +9,11 @@ sponsors_block_title: ""
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
-# platinum:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+platinum:
+  sponsor1:
+    name: "seeweb"
+    logo_filename: "seeweb.png"
+    site_url: "https://www.seeweb.it/"
 gold:
   sponsor1:
     name: "Daruma"
